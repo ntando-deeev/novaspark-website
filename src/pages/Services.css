@@ -173,3 +173,9 @@
   .services-grid { grid-template-columns: 1fr; }
   .process-grid { grid-template-columns: 1fr; }
 }
+
+.portfolio-filters { display: flex; gap: 8px; flex-wrap: wrap; }
+.filter-btn { font-family: var(--font-mono); font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding: 8px 18px; border-radius: 100px; border: 1px solid var(--border); background: transparent; color: var(--text-muted); cursor: pointer; transition: all 0.2s ease; }
+.filter-btn:hover { color: var(--text); border-color: var(--text-muted); }
+.filter-btn.active { background: var(--accent); border-color: var(--accent); color: var(--bg); }
+.svc-card__cat { font-family: var(--font-mono); font-size: 9px; color: var(--accent2); background: rgba(123,47,255,0.1); padding: 3px 8px; border-radius: 100px; letter-spacing: 0.08em; text-transform: uppercase; }

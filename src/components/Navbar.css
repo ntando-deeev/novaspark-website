@@ -121,3 +121,19 @@
   .navbar__cta { display: none; }
   .navbar__burger { display: flex; }
 }
+
+.nav-join {
+  color: var(--accent) !important;
+  border: 1px solid rgba(0,212,255,0.3);
+  border-radius: 100px !important;
+  padding: 6px 14px !important;
+}
+.nav-join:hover, .nav-join.active { background: rgba(0,212,255,0.1); border-color: var(--accent); }
+.nav-members {
+  color: var(--text-muted) !important;
+  border: 1px solid var(--border);
+  border-radius: 100px !important;
+  padding: 6px 14px !important;
+  font-size: 11px !important;
+}
+.nav-members:hover, .nav-members.active { border-color: var(--accent2); color: var(--accent2) !important; }

@@ -6,6 +6,8 @@ import Services from './pages/Services';
 import Portfolio from './pages/Portfolio';
 import About from './pages/About';
 import Contact from './pages/Contact';
+import Join from './pages/Join';
+import Members from './pages/Members';
 import './App.css';
 
 export default function App() {
@@ -18,6 +20,8 @@ export default function App() {
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/join" element={<Join />} />
+        <Route path="/members" element={<Members />} />
       </Routes>
       <Footer />
     </BrowserRouter>

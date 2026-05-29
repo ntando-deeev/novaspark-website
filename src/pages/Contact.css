@@ -196,3 +196,23 @@
   .form-row { grid-template-columns: 1fr; }
   .contact-form-wrap { padding: 28px 20px; }
 }
+
+.whatsapp-btn {
+  display: flex; gap: 16px; align-items: center;
+  background: rgba(0,200,100,0.07);
+  border: 1px solid rgba(0,200,100,0.25);
+  border-radius: 10px;
+  padding: 18px 20px;
+  transition: all 0.2s;
+  text-decoration: none;
+  color: var(--text);
+}
+.whatsapp-btn:hover { border-color: #00c864; background: rgba(0,200,100,0.12); transform: translateY(-2px); }
+.whatsapp-btn > span { font-size: 1.8rem; flex-shrink: 0; }
+.whatsapp-btn strong { display: block; font-size: 0.95rem; margin-bottom: 2px; }
+.whatsapp-btn span:last-of-type { display: none; }
+.whatsapp-btn div span { display: block; font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
+
+.contact-ict-badges p { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); letter-spacing: 0.1em; text-transform: uppercase; margin-bottom: 12px; }
+.ict-badges { display: flex; flex-wrap: wrap; gap: 8px; }
+.ict-badges span { font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); border: 1px solid var(--border); padding: 4px 10px; border-radius: 100px; letter-spacing: 0.05em; }
